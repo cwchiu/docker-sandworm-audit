@@ -27,3 +27,5 @@ jobs:
         with:
           push: true
           tags: chuiwenchiu/sandworm-audit:1.29.1
+          build-args: |
+            SANWORM_AUDIT_VER:1.29.1
